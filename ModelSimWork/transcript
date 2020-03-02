@@ -1,5 +1,5 @@
 # vsim -c tb_SimplifiedMIPSProcessor -do "modelsim_framework.do" 
-# Start time: 16:22:55 on Dec 14,2019
+# Start time: 16:32:33 on Dec 14,2019
 # //  ModelSim DE-64 10.7b Jun  8 2018
 # //
 # //  Copyright 1991-2018 Mentor Graphics Corporation
@@ -37,6 +37,7 @@
 # Loading work.ifid(behavior)
 # Loading work.stallreg(behavior)
 # Loading work.dff1(mixed)
+# Loading work.forwardingunit(dataflow)
 # Loading work.controlu(dataflow)
 # Loading work.extender(structure)
 # Loading work.register_array_type
@@ -197,12 +198,22 @@
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ns  Iteration: 4  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate15/gate2
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 5 ns  Iteration: 5  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate15/gate2
-# ** Note: Data structure takes 19360712 bytes of memory
-#          Process time 0.11 seconds
+#    Time: 5 ns  Iteration: 6  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate15/gate2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 4  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate10/mux2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 4  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate10/mux1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 8  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate15/gate2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 3  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate10/mux1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 3  Instance: /tb_simplifiedmipsprocessor/MySimplifiedMIPSProcess/gate10/mux2
+# ** Note: Data structure takes 19491784 bytes of memory
+#          Process time 0.08 seconds
 #          stop
-#    Time: 220 ns  Iteration: 1  Instance: /tb_simplifiedmipsprocessor
-# Break in Process P_DUMP_STATE at U:/cpre381/PROJ C FINAL/phase 1/cpre381-toolflow-release/ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd line 140
-# Stopped at U:/cpre381/PROJ C FINAL/phase 1/cpre381-toolflow-release/ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd line 140
-# End time: 16:22:56 on Dec 14,2019, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 71
+#    Time: 340 ns  Iteration: 1  Instance: /tb_simplifiedmipsprocessor
+# Break in Process P_DUMP_STATE at U:/cpre381/PROJ C FINAL/phase 2/cpre381-toolflow-release/ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd line 140
+# Stopped at U:/cpre381/PROJ C FINAL/phase 2/cpre381-toolflow-release/ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd line 140
+# End time: 16:32:34 on Dec 14,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 76

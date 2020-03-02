@@ -17,7 +17,8 @@ entity MEMWB is
 	     i_ins	: in std_logic_vector(N-1 downto 0);
 	     i_jal	: in std_logic_vector(N-1 downto 0);
 	     i_WB	: in std_logic;
-
+		i_shift : in std_logic;
+		 o_shift : out std_logic;
 	     o_ALURes	: out std_logic_vector(N-1 downto 0);
 	     o_memRead	: out std_logic_vector(N-1 downto 0);
 	     o_memtoReg	: out std_logic;
@@ -57,6 +58,14 @@ component SingleStallReg
 end component;
 
 begin
+
+	shiftGate: SingleStallReg
+		port map(i_CLK		=> i_CLK,
+			 i_RST 		=> i_RST,
+			 i_Wren		=> i_Wren,
+			 i_Stall	=> i_Stall,
+			 i_D 		=> i_shift,
+			 o_Q 		=> o_shift);
 
 	ALUResGate: StallReg
 		generic map(N => N)

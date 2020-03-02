@@ -24,6 +24,8 @@ entity EXMEM is
 	     i_rt2	: in std_logic_vector(4 downto 0);
 	     i_rd	: in std_logic_vector(4 downto 0);
 		 i_BLOC : in std_logic_vector(N-1 downto 0);
+		 i_shift : in std_logic;
+		 o_shift : out std_logic;
 		 o_BLOC : out std_logic_vector(N-1 downto 0);
 	     o_ALURes	: out std_logic_vector(N-1 downto 0);
 	     o_reg 	: out std_logic_vector(N-1 downto 0);
@@ -91,6 +93,14 @@ begin
 			 i_Stall	=> i_Stall,
 			 i_D 		=> i_reg,
 			 o_Q 		=> o_reg);
+			 
+	shiftGate: SingleStallReg
+		port map(i_CLK		=> i_CLK,
+			 i_RST 		=> i_RST,
+			 i_Wren		=> i_Wren,
+			 i_Stall	=> i_Stall,
+			 i_D 		=> i_shift,
+			 o_Q 		=> o_shift);
 
 	memtoRegGate: SingleStallReg
 		port map(i_CLK		=> i_CLK,

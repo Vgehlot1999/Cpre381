@@ -370,6 +370,8 @@ component EXMEM is
 	     i_rt2	: in std_logic_vector(4 downto 0);
 	     i_rd	: in std_logic_vector(4 downto 0);
 		 i_BLOC : in std_logic_vector(N-1 downto 0);
+		 i_shift : in std_logic;
+		 o_shift : out std_logic;
 		 o_BLOC : out std_logic_vector(N-1 downto 0);
 	     o_ALURes	: out std_logic_vector(N-1 downto 0);
 	     o_reg 	: out std_logic_vector(N-1 downto 0);
@@ -416,7 +418,8 @@ component MEMWB is
 	     i_ins	: in std_logic_vector(N-1 downto 0);
 	     i_jal	: in std_logic_vector(N-1 downto 0);
 	     i_WB	: in std_logic;
-
+		i_shift : in std_logic;
+		 o_shift : out std_logic;
 	     o_ALURes	: out std_logic_vector(N-1 downto 0);
 	     o_memRead	: out std_logic_vector(N-1 downto 0);
 	     o_memtoReg	: out std_logic;
@@ -428,6 +431,25 @@ component MEMWB is
 	     o_WB	: out std_logic);
 
 end component;
+
+component ForwardingUnit is
+port(
+	EXMEMRegWrite : in std_logic;
+	EXMEMShift : in std_logic;
+	EXMEMRegRd : in std_logic_vector(4 downto 0);
+	IDEXBranch : in std_logic;
+	IDEXRegRs : in std_logic_vector(4 downto 0);
+	IDEXRegRt : in std_logic_vector(4 downto 0);
+	IDEXBranchRegRs : in std_logic_vector(4 downto 0);
+	IDEXBranchRegRt : in std_logic_vector(4 downto 0);
+	MEMWBRegWrite : in std_logic;
+	MEMWBRegRd : in std_logic_vector(4 downto 0);
+	MEMWBShift : in std_logic;
+	BranchA : out std_logic_vector(1 downto 0);
+	BranchB : out std_logic_vector(1 downto 0);
+	ForwardA : out std_logic_vector(1 downto 0);
+	ForwardB : out std_logic_vector(1 downto 0));
+end component;
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --***************************************************************************************************************************************************************************************--
 --***************************************************************************************************************************************************************************************--
@@ -436,7 +458,7 @@ end component;
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 signal s_SignedI, s_RegDst, s_RegWrite, s_ALUSrc, s_UpperI, s_AddSub, s_ALUShiftSel, s_MemWr, s_MemtoReg, s_vControl, s_ULess, s_linkCont, s_ALUZero, s_ALUnZero, s_BEQ, s_BNE, s_branch, s_BEQAnd, s_BNEAnd, s_RACont, s_jCont: std_logic;
-signal s_JumpLinkTwo,s_Reg1, s_Reg2, s_Mux1, s_Mux2, s_Imm, s_D, s_oInt, s_qInt, s_PCIn, s_Instr, s_JumpLink, s_JumpLinkData, s_jumpInst, s_nextInst, s_LS, s_BLoc, s_PC1, s_PC2, s_PCMux: std_logic_vector(N-1 downto 0);
+signal s_JumpLinkTwo,s_Reg1, s_Reg2, s_Mux1, s_Mux2, s_Imm, s_D, s_oInt, s_qInt,forwardInALUA, forwardInALUB, s_PCIn, s_Instr, s_JumpLink, s_JumpLinkData, s_jumpInst, s_nextInst, s_LS, s_BLoc, s_PC1, s_PC2, s_PCMux: std_logic_vector(N-1 downto 0);
 signal s_ShiftCont: std_logic_vector(1 downto 0);
 signal s_ALUCont: std_logic_vector(2 downto 0);
 
@@ -450,17 +472,17 @@ signal s_ins1, s_nIns, s_JALAddOut1 : std_logic_vector(N-1 downto 0);
 signal ms2, wbs2, exs2, alusrcs2, ulesss2, upImms2, vs2, branchEqus2, branchNotEqus2, raControls2, jumpControls2, memToRegs2, memWrites2, addSubs2, aluShiftSelects2, RegWrites2, linkcontrols2: std_logic;
 signal regout1s2, regout2s2, JumpInstructionLocations2, nIns2, immediates2, s_ins2, JALAddOut2: std_logic_vector(N-1 downto 0);
 signal sVal2, rss2, rds2, rt1s2, rt2s2, jalAddress2: std_logic_vector(4 downto 0);
-signal sCont2 : std_logic_vector(1 downto 0);
+signal sCont2, forwardA, forwardB : std_logic_vector(1 downto 0);
 signal aluOp2: std_logic_vector(2 downto 0);
 
 --EXMEM
-signal ms3, wbs3, memToRegs3, memWrites3, RegWrites3, linkcontrols3 : std_logic;
+signal ms3, wbs3, memToRegs3, memWrites3, RegWrites3, aluShiftSelects3,linkcontrols3 : std_logic;
 signal rss3, rds3, rt1s3, rt2s3, jalAddresss3: std_logic_vector(4 downto 0);
 signal regout3, alures3, s_ins3, JALAddOut3, s_BLocDel: std_logic_vector(N-1 downto 0);
 
 --MEMWB
 signal JumpLinkAddress4: std_logic_vector(4 downto 0);
-signal wbs4, memToRegs4, RegWrite4, linkcont4 : std_logic;
+signal wbs4, memToRegs4, RegWrite4, linkcont4, memwbshift : std_logic;
 signal memreads4, alures4, s_ins4, JALAddOut4: std_logic_vector(N-1 downto 0);
 
 
@@ -549,6 +571,24 @@ gate20: IFID
 
 
 
+
+forward: ForwardingUnit
+	port MAP(
+		EXMEMRegWrite => RegWrites3,
+		EXMemShift => aluShiftSelects3,
+		EXMemRegRd => jaladdresss3,
+		IDEXRegRs => rss2,
+		IDEXRegRt => rt1s2,
+		IDEXBranch => '1',
+		IDEXBranchRegRs => "00000",
+		IDEXBranchRegRt => "00000",
+		MEMWBRegWrite => RegWrite4,
+		MEMWBRegRd => JumpLinkAddress4,
+		MEMWBShift => memwbshift,
+		ForwardA => forwardA,
+		ForwardB => forwardB
+		
+	);
 
 gate4: ControlU
 	port MAP(
@@ -755,8 +795,8 @@ gate21: IDEX
 	     i_WB	=> '0',
 	     i_M	=> '0',
 	     i_EX	=> '0',
-	     i_rs	=> s_ins1(10 downto 6),
-	     i_rt1	=> s_ins1(10 downto 6),
+	     i_rs	=> s_ins1(25 downto 21),
+	     i_rt1	=> s_ins1(20 downto 16),
 	     i_rt2	=> s_ins1(10 downto 6),
 	     i_rd	=> s_ins1(10 downto 6),
 
@@ -831,11 +871,21 @@ gate14: mux2to1_2
 		i_S 		=> upImms2,
 		o_F 		=> s_Shift);
 
+forwardInALUA <= s_Mux2 when ForwardA = "00" else
+	s_RegWrData when ForwardA = "01" else
+	alures3 when ForwardA = "10" else
+	s_Mux2;
+forwardInALUB <= s_Mux1 when ForwardB = "00" else
+	s_RegWrData when ForwardB = "01" else
+	alures3 when ForwardB = "10" else
+	s_Mux2;	
+	
+	
 gate15: mergeALU
 	generic MAP(N => 32)
   	port MAP(
-		i_A      	=> s_Mux2,	
-    		i_B      	=> s_Mux1,	
+		i_A      	=>  forwardInALUA,	
+    		i_B      	=> forwardInALUB,	
 		i_sel    	=> s_Shift,	
 		i_Func   	=> sCont2,	
     		i_AddSub 	=> addSubs2,
@@ -875,6 +925,8 @@ gate22: EXMEM
 	     i_rt2	=> rt2s2,
 	     i_rd	=> rds2,
 		 i_BLOC => s_BLoc,
+		 i_shift => aluShiftSelects2,
+		 o_shift => aluShiftSelects3,
 		 o_BLOC => s_BLocDel,
 	     o_ALURes	=> alures3,
 	     o_reg 	=> regOut3,
@@ -942,7 +994,8 @@ gate23: MEMWB
 	     i_ins	=> s_ins3,
 	     i_jal	=> JALAddOut3,
 	     i_WB	=> wbs3,
-
+		 i_Shift => aluShiftSelects3,
+		 o_Shift => memwbshift,
 	     o_ALURes	=> alures4,
 	     o_memRead	=> memreads4,
 	     o_memtoReg	=> memtoRegs4,

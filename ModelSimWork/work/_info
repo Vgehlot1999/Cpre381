@@ -7,7 +7,7 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dU:/cpre381/PROJ C FINAL/phase 1/cpre381-toolflow-release
+Z0 dU:/cpre381/PROJ C FINAL/phase 2/cpre381-toolflow-release
 Eadd_sub
 Z1 w1573685330
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -21,11 +21,11 @@ V5n75k1;H7PDC2l0Ni92al2
 !s100 3Gli<?DH[?QP7D3H9RJ7Y1
 Z6 OP;C;10.7b;67
 33
-Z7 !s110 1576362171
+Z7 !s110 1576362748
 !i10b 1
-Z8 !s108 1576362171.000000
-Z9 !s90 -2008|-work|ModelSimWork/work|ModelSimWork/src/AAAAAregister_array_type.vhd|ModelSimWork/src/AAAAAregister_array_typev2.vhd|ModelSimWork/src/Add_Sub.vhd|ModelSimWork/src/ALU1b.vhd|ModelSimWork/src/ALU32b.vhd|ModelSimWork/src/andg2.vhd|ModelSimWork/src/barrelShifter.vhd|ModelSimWork/src/ControlU.vhd|ModelSimWork/src/Decoder5_32.vhd|ModelSimWork/src/dff.vhd|ModelSimWork/src/EXMEM.vhd|ModelSimWork/src/extender.vhd|ModelSimWork/src/fullAdder.vhd|ModelSimWork/src/fullAdderStructural.vhd|ModelSimWork/src/IDEX.vhd|ModelSimWork/src/IFID.vhd|ModelSimWork/src/invg.vhd|ModelSimWork/src/mem.vhd|ModelSimWork/src/MEMWB.vhd|ModelSimWork/src/mergeALU.vhd|ModelSimWork/src/MIPS_Processor.vhd|ModelSimWork/src/mux2to1.vhd|ModelSimWork/src/mux2to1_2.vhd|ModelSimWork/src/mux2to1_dataflow.vhd|ModelSimWork/src/mux32to1.vhd|ModelSimWork/src/mux8to1.vhd|ModelSimWork/src/nBitReg.vhd|ModelSimWork/src/one_comp_Structure.vhd|ModelSimWork/src/org2.vhd|ModelSimWork/src/registerFile.vhd|ModelSimWork/src/SingleStallReg.vhd|ModelSimWork/src/StallReg.vhd|ModelSimWork/src/tb_registers.vhd|ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd|ModelSimWork/src/xorg2.vhd|
-!s107 ModelSimWork/src/xorg2.vhd|ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd|ModelSimWork/src/tb_registers.vhd|ModelSimWork/src/StallReg.vhd|ModelSimWork/src/SingleStallReg.vhd|ModelSimWork/src/registerFile.vhd|ModelSimWork/src/org2.vhd|ModelSimWork/src/one_comp_Structure.vhd|ModelSimWork/src/nBitReg.vhd|ModelSimWork/src/mux8to1.vhd|ModelSimWork/src/mux32to1.vhd|ModelSimWork/src/mux2to1_dataflow.vhd|ModelSimWork/src/mux2to1_2.vhd|ModelSimWork/src/mux2to1.vhd|ModelSimWork/src/MIPS_Processor.vhd|ModelSimWork/src/mergeALU.vhd|ModelSimWork/src/MEMWB.vhd|ModelSimWork/src/mem.vhd|ModelSimWork/src/invg.vhd|ModelSimWork/src/IFID.vhd|ModelSimWork/src/IDEX.vhd|ModelSimWork/src/fullAdderStructural.vhd|ModelSimWork/src/fullAdder.vhd|ModelSimWork/src/extender.vhd|ModelSimWork/src/EXMEM.vhd|ModelSimWork/src/dff.vhd|ModelSimWork/src/Decoder5_32.vhd|ModelSimWork/src/ControlU.vhd|ModelSimWork/src/barrelShifter.vhd|ModelSimWork/src/andg2.vhd|ModelSimWork/src/ALU32b.vhd|ModelSimWork/src/ALU1b.vhd|ModelSimWork/src/Add_Sub.vhd|ModelSimWork/src/AAAAAregister_array_typev2.vhd|ModelSimWork/src/AAAAAregister_array_type.vhd|
+Z8 !s108 1576362748.000000
+Z9 !s90 -2008|-work|ModelSimWork/work|ModelSimWork/src/AAAAAregister_array_type.vhd|ModelSimWork/src/AAAAAregister_array_typev2.vhd|ModelSimWork/src/Add_Sub.vhd|ModelSimWork/src/ALU1b.vhd|ModelSimWork/src/ALU32b.vhd|ModelSimWork/src/andg2.vhd|ModelSimWork/src/barrelShifter.vhd|ModelSimWork/src/ControlU.vhd|ModelSimWork/src/Decoder5_32.vhd|ModelSimWork/src/dff.vhd|ModelSimWork/src/EXMEM.vhd|ModelSimWork/src/extender.vhd|ModelSimWork/src/ForwardingUnit.vhd|ModelSimWork/src/fullAdder.vhd|ModelSimWork/src/fullAdderStructural.vhd|ModelSimWork/src/IDEX.vhd|ModelSimWork/src/IFID.vhd|ModelSimWork/src/invg.vhd|ModelSimWork/src/mem.vhd|ModelSimWork/src/MEMWB.vhd|ModelSimWork/src/mergeALU.vhd|ModelSimWork/src/MIPS_Processor.vhd|ModelSimWork/src/mux2to1.vhd|ModelSimWork/src/mux2to1_2.vhd|ModelSimWork/src/mux2to1_dataflow.vhd|ModelSimWork/src/mux32to1.vhd|ModelSimWork/src/mux8to1.vhd|ModelSimWork/src/nBitReg.vhd|ModelSimWork/src/one_comp_Structure.vhd|ModelSimWork/src/org2.vhd|ModelSimWork/src/registerFile.vhd|ModelSimWork/src/SingleStallReg.vhd|ModelSimWork/src/StallReg.vhd|ModelSimWork/src/tb_registers.vhd|ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd|ModelSimWork/src/xorg2.vhd|
+!s107 ModelSimWork/src/xorg2.vhd|ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd|ModelSimWork/src/tb_registers.vhd|ModelSimWork/src/StallReg.vhd|ModelSimWork/src/SingleStallReg.vhd|ModelSimWork/src/registerFile.vhd|ModelSimWork/src/org2.vhd|ModelSimWork/src/one_comp_Structure.vhd|ModelSimWork/src/nBitReg.vhd|ModelSimWork/src/mux8to1.vhd|ModelSimWork/src/mux32to1.vhd|ModelSimWork/src/mux2to1_dataflow.vhd|ModelSimWork/src/mux2to1_2.vhd|ModelSimWork/src/mux2to1.vhd|ModelSimWork/src/MIPS_Processor.vhd|ModelSimWork/src/mergeALU.vhd|ModelSimWork/src/MEMWB.vhd|ModelSimWork/src/mem.vhd|ModelSimWork/src/invg.vhd|ModelSimWork/src/IFID.vhd|ModelSimWork/src/IDEX.vhd|ModelSimWork/src/fullAdderStructural.vhd|ModelSimWork/src/fullAdder.vhd|ModelSimWork/src/ForwardingUnit.vhd|ModelSimWork/src/extender.vhd|ModelSimWork/src/EXMEM.vhd|ModelSimWork/src/dff.vhd|ModelSimWork/src/Decoder5_32.vhd|ModelSimWork/src/ControlU.vhd|ModelSimWork/src/barrelShifter.vhd|ModelSimWork/src/andg2.vhd|ModelSimWork/src/ALU32b.vhd|ModelSimWork/src/ALU1b.vhd|ModelSimWork/src/Add_Sub.vhd|ModelSimWork/src/AAAAAregister_array_typev2.vhd|ModelSimWork/src/AAAAAregister_array_type.vhd|
 !i113 1
 Z10 o-2008 -work ModelSimWork/work
 Z11 tExplicit 1 CvgOpt 0
@@ -43,7 +43,7 @@ R7
 !i10b 1
 R8
 R9
-Z12 !s107 ModelSimWork/src/xorg2.vhd|ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd|ModelSimWork/src/tb_registers.vhd|ModelSimWork/src/StallReg.vhd|ModelSimWork/src/SingleStallReg.vhd|ModelSimWork/src/registerFile.vhd|ModelSimWork/src/org2.vhd|ModelSimWork/src/one_comp_Structure.vhd|ModelSimWork/src/nBitReg.vhd|ModelSimWork/src/mux8to1.vhd|ModelSimWork/src/mux32to1.vhd|ModelSimWork/src/mux2to1_dataflow.vhd|ModelSimWork/src/mux2to1_2.vhd|ModelSimWork/src/mux2to1.vhd|ModelSimWork/src/MIPS_Processor.vhd|ModelSimWork/src/mergeALU.vhd|ModelSimWork/src/MEMWB.vhd|ModelSimWork/src/mem.vhd|ModelSimWork/src/invg.vhd|ModelSimWork/src/IFID.vhd|ModelSimWork/src/IDEX.vhd|ModelSimWork/src/fullAdderStructural.vhd|ModelSimWork/src/fullAdder.vhd|ModelSimWork/src/extender.vhd|ModelSimWork/src/EXMEM.vhd|ModelSimWork/src/dff.vhd|ModelSimWork/src/Decoder5_32.vhd|ModelSimWork/src/ControlU.vhd|ModelSimWork/src/barrelShifter.vhd|ModelSimWork/src/andg2.vhd|ModelSimWork/src/ALU32b.vhd|ModelSimWork/src/ALU1b.vhd|ModelSimWork/src/Add_Sub.vhd|ModelSimWork/src/AAAAAregister_array_typev2.vhd|ModelSimWork/src/AAAAAregister_array_type.vhd|
+Z12 !s107 ModelSimWork/src/xorg2.vhd|ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd|ModelSimWork/src/tb_registers.vhd|ModelSimWork/src/StallReg.vhd|ModelSimWork/src/SingleStallReg.vhd|ModelSimWork/src/registerFile.vhd|ModelSimWork/src/org2.vhd|ModelSimWork/src/one_comp_Structure.vhd|ModelSimWork/src/nBitReg.vhd|ModelSimWork/src/mux8to1.vhd|ModelSimWork/src/mux32to1.vhd|ModelSimWork/src/mux2to1_dataflow.vhd|ModelSimWork/src/mux2to1_2.vhd|ModelSimWork/src/mux2to1.vhd|ModelSimWork/src/MIPS_Processor.vhd|ModelSimWork/src/mergeALU.vhd|ModelSimWork/src/MEMWB.vhd|ModelSimWork/src/mem.vhd|ModelSimWork/src/invg.vhd|ModelSimWork/src/IFID.vhd|ModelSimWork/src/IDEX.vhd|ModelSimWork/src/fullAdderStructural.vhd|ModelSimWork/src/fullAdder.vhd|ModelSimWork/src/ForwardingUnit.vhd|ModelSimWork/src/extender.vhd|ModelSimWork/src/EXMEM.vhd|ModelSimWork/src/dff.vhd|ModelSimWork/src/Decoder5_32.vhd|ModelSimWork/src/ControlU.vhd|ModelSimWork/src/barrelShifter.vhd|ModelSimWork/src/andg2.vhd|ModelSimWork/src/ALU32b.vhd|ModelSimWork/src/ALU1b.vhd|ModelSimWork/src/Add_Sub.vhd|ModelSimWork/src/AAAAAregister_array_typev2.vhd|ModelSimWork/src/AAAAAregister_array_type.vhd|
 !i113 1
 R10
 R11
@@ -222,7 +222,7 @@ VILz`5BIKLbKaBN_k5AJ:E1
 !s100 [J8:`HiQ@XXeD7M^[;PVl2
 R6
 33
-Z30 !s110 1576362172
+R7
 !i10b 1
 R8
 R9
@@ -240,7 +240,7 @@ VFNCig:DAF;oM7jV4_>1az0
 !s100 en7XL6ac2TJ1lofNEOX@i3
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -249,19 +249,19 @@ R12
 R10
 R11
 Edecoder5_32
-Z31 w1568758544
+Z30 w1568758544
 R2
 R3
 R0
-Z32 8ModelSimWork/src/Decoder5_32.vhd
-Z33 FModelSimWork/src/Decoder5_32.vhd
+Z31 8ModelSimWork/src/Decoder5_32.vhd
+Z32 FModelSimWork/src/Decoder5_32.vhd
 l0
 L4
 V`l@49TSh2X4@DhfLENnHC0
 !s100 _e_H21d>dZeOEALJWbL`E3
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -279,7 +279,7 @@ V[3Ka4<m2:m9D09TVPVbb;1
 !s100 lQ077dL<TAX[9DV?IQ`C]2
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -288,19 +288,19 @@ R12
 R10
 R11
 Edff1
-Z34 w1576133232
+Z33 w1576133232
 R2
 R3
 R0
-Z35 8ModelSimWork/src/dff.vhd
-Z36 FModelSimWork/src/dff.vhd
+Z34 8ModelSimWork/src/dff.vhd
+Z35 FModelSimWork/src/dff.vhd
 l0
 L21
 V3n_FITMe[Eb5_PRiWYWji0
 !s100 H=`fj=fBzagVfzmjKj[Eg0
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -318,7 +318,7 @@ VeZRD^NY=97@3@NR2R3X9K3
 !s100 PeZaEL8JMeQFKg?Yj2HQ`1
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -327,19 +327,19 @@ R12
 R10
 R11
 Eexmem
-Z37 w1576131134
+Z36 w1576136760
 R2
 R3
 R0
-Z38 8ModelSimWork/src/EXMEM.vhd
-Z39 FModelSimWork/src/EXMEM.vhd
+Z37 8ModelSimWork/src/EXMEM.vhd
+Z38 FModelSimWork/src/EXMEM.vhd
 l0
 L4
-VScX_WORXd;WoL:?BROj?R2
-!s100 7iBdnTQD9^QdQl3[GG03Z2
+V8SH9:@`8TB@Veh_NN_HlS1
+!s100 ;zQPEbXU23]^W7CU]Dg>C1
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -350,14 +350,14 @@ R11
 Abehavior
 R2
 R3
-DEx4 work 5 exmem 0 22 ScX_WORXd;WoL:?BROj?R2
-l75
-L47
-VUFjK=27<G@P8EcUh8C2RC3
-!s100 flnA]^AZG4UYU>5YbYbQT0
+DEx4 work 5 exmem 0 22 8SH9:@`8TB@Veh_NN_HlS1
+l77
+L49
+VMmQ4j5@=XOL2ISoE8;]Wf0
+!s100 [?@5J:0M@kSF2ZK]ekdH51
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -366,19 +366,19 @@ R12
 R10
 R11
 Eextender
-Z40 w1571332558
+Z39 w1571332558
 R2
 R3
 R0
-Z41 8ModelSimWork/src/extender.vhd
-Z42 FModelSimWork/src/extender.vhd
+Z40 8ModelSimWork/src/extender.vhd
+Z41 FModelSimWork/src/extender.vhd
 l0
 L4
 V[h0o<ZJM=<H`^^o:fIL623
 !s100 VgSSz5dd0:e:nKLlg;NA=3
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -396,7 +396,46 @@ VkWiicnO]I7:mbSXWm@D@L1
 !s100 48cbmY5Y3>]gB:0UgaXQk1
 R6
 33
-R30
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Eforwardingunit
+Z42 w1576137064
+R2
+R3
+R0
+Z43 8ModelSimWork/src/ForwardingUnit.vhd
+Z44 FModelSimWork/src/ForwardingUnit.vhd
+l0
+L4
+V7>Q2HX:UDmbj1lDdIKC2`3
+!s100 :e5gSgeWbEdz32@1D1?471
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Adataflow
+R2
+R3
+DEx4 work 14 forwardingunit 0 22 7>Q2HX:UDmbj1lDdIKC2`3
+l25
+L24
+V8L6RH^?ShiRjlLTEH<?4C1
+!s100 f0ESi5U^FmYFU44LCX3nW2
+R6
+33
+R7
 !i10b 1
 R8
 R9
@@ -405,19 +444,19 @@ R12
 R10
 R11
 Efulladder
-Z43 w1568301192
+Z45 w1568301192
 R2
 R3
 R0
-Z44 8ModelSimWork/src/fullAdder.vhd
-Z45 FModelSimWork/src/fullAdder.vhd
+Z46 8ModelSimWork/src/fullAdder.vhd
+Z47 FModelSimWork/src/fullAdder.vhd
 l0
 L4
 Vnf=F7ai=bfSN4lMgPXPbI3
 !s100 31iZ`ilN52He_6YZRS8V:1
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -435,7 +474,7 @@ Vfcn[DGQK>^Z[2YDcU<nc@3
 !s100 VhMYAO>AYT@<^lh`cCanf1
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -444,19 +483,19 @@ R12
 R10
 R11
 Efulladderstructural
-Z46 w1568303366
+Z48 w1568303366
 R2
 R3
 R0
-Z47 8ModelSimWork/src/fullAdderStructural.vhd
-Z48 FModelSimWork/src/fullAdderStructural.vhd
+Z49 8ModelSimWork/src/fullAdderStructural.vhd
+Z50 FModelSimWork/src/fullAdderStructural.vhd
 l0
 L4
 Vb8QTjh9dUTNPIVAW3PS2@2
 !s100 hHHL`>VYLi99l[@zWIlXS1
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -474,7 +513,7 @@ V;m_ALCBk`d0CodXimjPiC1
 !s100 W4SB9:iG2=105ZSB]_]VB0
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -483,19 +522,19 @@ R12
 R10
 R11
 Eidex
-Z49 w1576031558
+Z51 w1576031558
 R2
 R3
 R0
-Z50 8ModelSimWork/src/IDEX.vhd
-Z51 FModelSimWork/src/IDEX.vhd
+Z52 8ModelSimWork/src/IDEX.vhd
+Z53 FModelSimWork/src/IDEX.vhd
 l0
 L4
 VnHFi1ke_BZY^Y:eC1:8a<2
 !s100 <U<@0E891nkk2cVh5_ba10
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -513,7 +552,7 @@ V1_znm[6o0<:J?V5zb?2<@0
 !s100 j<RobVLI^:3fm1bkf@kc_0
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -522,19 +561,19 @@ R12
 R10
 R11
 Eifid
-Z52 w1575854450
+Z54 w1575854450
 R2
 R3
 R0
-Z53 8ModelSimWork/src/IFID.vhd
-Z54 FModelSimWork/src/IFID.vhd
+Z55 8ModelSimWork/src/IFID.vhd
+Z56 FModelSimWork/src/IFID.vhd
 l0
 L4
 VZg6:bk;NO8mZPc8bW:G?b3
 !s100 Az8FzniJ?F31=9dmj8T6X0
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -552,7 +591,7 @@ V9NZ>gQM30ze92nJLlK=:M3
 !s100 <JejinoWCjl[NO;ULzj5F1
 R6
 33
-R30
+R7
 !i10b 1
 R8
 R9
@@ -565,15 +604,15 @@ R21
 R2
 R3
 R0
-Z55 8ModelSimWork/src/invg.vhd
-Z56 FModelSimWork/src/invg.vhd
+Z57 8ModelSimWork/src/invg.vhd
+Z58 FModelSimWork/src/invg.vhd
 l0
 L23
 VKNY]RA?ddg;JI6?e:_DiW0
 !s100 _XK?_^5z0Rm1<k12?;5R?2
 R6
 33
-R30
+Z59 !s110 1576362749
 !i10b 1
 R8
 R9
@@ -591,7 +630,7 @@ VQY:4LPjk?E8z6C52Rh`UM1
 !s100 bk7I76o8e1LURdoZEQb8H0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -600,20 +639,20 @@ R12
 R10
 R11
 Emem
-Z57 w1565363688
+Z60 w1565363688
 R15
 R2
 R3
 R0
-Z58 8ModelSimWork/src/mem.vhd
-Z59 FModelSimWork/src/mem.vhd
+Z61 8ModelSimWork/src/mem.vhd
+Z62 FModelSimWork/src/mem.vhd
 l0
 L8
 Vb^Q1loJM2Kl0Dee4UmMi80
 !s100 fRlcaiTJZJ1H;nZh;8=LI3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -632,7 +671,7 @@ Vdo]6_fF@gS4kC>=i88e=N0
 !s100 OI8_3><BhDkT3l3n8`OXd3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -641,19 +680,19 @@ R12
 R10
 R11
 Ememwb
-Z60 w1576031734
+Z63 w1576136756
 R2
 R3
 R0
-Z61 8ModelSimWork/src/MEMWB.vhd
-Z62 FModelSimWork/src/MEMWB.vhd
+Z64 8ModelSimWork/src/MEMWB.vhd
+Z65 FModelSimWork/src/MEMWB.vhd
 l0
 L4
-VHdi8We7f61O5DFS0e1]AL1
-!s100 _fmjX11aE=efoOS@>378m0
+Vfi_O6bY;JHN`iM^:F9E_<3
+!s100 oh18H3l9oh;YdHeJ>n8Md1
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -664,14 +703,14 @@ R11
 Abehavior
 R2
 R3
-DEx4 work 5 memwb 0 22 Hdi8We7f61O5DFS0e1]AL1
-l59
-L33
-VDf]1QY`YUGP802^oAEZE=0
-!s100 Aa>WDUie3NbY;^;T2oPF12
+DEx4 work 5 memwb 0 22 fi_O6bY;JHN`iM^:F9E_<3
+l60
+L34
+Vb_Tm6H`c=0zMHam;jOS1g2
+!s100 z^YS:;DTU9Ga8Z8SLT`iJ0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -680,19 +719,19 @@ R12
 R10
 R11
 Emergealu
-Z63 w1573696016
+Z66 w1573696016
 R2
 R3
 R0
-Z64 8ModelSimWork/src/mergeALU.vhd
-Z65 FModelSimWork/src/mergeALU.vhd
+Z67 8ModelSimWork/src/mergeALU.vhd
+Z68 FModelSimWork/src/mergeALU.vhd
 l0
 L4
 V=K1;8l1ziRz`aJG;J9mEh0
 !s100 @V4^g`TjI`D@8Dolknf2B0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -710,7 +749,7 @@ Vh4bRWi<M5;NgFT`W^<jRa3
 !s100 eb305zEYCFm8;zQO:?<fA1
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -719,21 +758,21 @@ R12
 R10
 R11
 Emips_processor
-Z66 w1576131520
-Z67 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
-Z68 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z69 w1576183016
+Z70 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z71 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
 R2
 R3
 R0
-Z69 8ModelSimWork/src/MIPS_Processor.vhd
-Z70 FModelSimWork/src/MIPS_Processor.vhd
+Z72 8ModelSimWork/src/MIPS_Processor.vhd
+Z73 FModelSimWork/src/MIPS_Processor.vhd
 l0
 L21
 V5_AOC4D^^FlRWIlQVh[Ln3
 !s100 7cI]Db5[eb=bMzJ3W7lV00
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -742,18 +781,18 @@ R12
 R10
 R11
 Astructure
-R67
-R68
+R70
+R71
 R2
 R3
 DEx4 work 14 mips_processor 0 22 5_AOC4D^^FlRWIlQVh[Ln3
-l476
+l498
 L33
-VdNIzlOQ3L1l;mEXHbg50I2
-!s100 aRebko47Y[A[1n5<YGIZ22
+VD_Rnz@HNWASlhnJZRZfWE2
+!s100 YVaJ_Zm;zj]99@8F3hTL;3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -762,19 +801,19 @@ R12
 R10
 R11
 Emux2to1
-Z71 w1567888056
+Z74 w1567888056
 R2
 R3
 R0
-Z72 8ModelSimWork/src/mux2to1.vhd
-Z73 FModelSimWork/src/mux2to1.vhd
+Z75 8ModelSimWork/src/mux2to1.vhd
+Z76 FModelSimWork/src/mux2to1.vhd
 l0
 L4
 V2_HaaDe<9X4A=mfKH691X2
 !s100 [P;:>dB;F9bLTVS3D<XYT2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -792,7 +831,7 @@ Vh8:ADmUh3a411R8TTD<4[0
 !s100 ;G[c;UzJHcXD9Rh;gT7Se1
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -801,19 +840,19 @@ R12
 R10
 R11
 Emux2to1_2
-Z74 w1567889394
+Z77 w1567889394
 R2
 R3
 R0
-Z75 8ModelSimWork/src/mux2to1_2.vhd
-Z76 FModelSimWork/src/mux2to1_2.vhd
+Z78 8ModelSimWork/src/mux2to1_2.vhd
+Z79 FModelSimWork/src/mux2to1_2.vhd
 l0
 L4
 V^K[=BF5F<hAI`G7NcMV?^0
 !s100 mJ1]?PgWPhz1fBmG4@`8l3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -831,7 +870,7 @@ V^>SH4JL^S;L_Ji6;k@Ld=0
 !s100 hii9D:M?8@[eX;>I1PD4_0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -840,19 +879,19 @@ R12
 R10
 R11
 Emux2to1_dataflow
-Z77 w1568238254
+Z80 w1568238254
 R2
 R3
 R0
-Z78 8ModelSimWork/src/mux2to1_dataflow.vhd
-Z79 FModelSimWork/src/mux2to1_dataflow.vhd
+Z81 8ModelSimWork/src/mux2to1_dataflow.vhd
+Z82 FModelSimWork/src/mux2to1_dataflow.vhd
 l0
 L4
 VQCkIVNXk_l4IIn=Z>6:Wz0
 !s100 cnj:OHeO@i^_lTLcKSDeM2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -870,7 +909,7 @@ V[z@<ef1d]UN;9gi7czbG60
 !s100 FjB]L0KKd91=HzCZ__c900
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -879,21 +918,21 @@ R12
 R10
 R11
 Emux32to1
-Z80 w1568759628
-Z81 DPx4 work 19 register_array_type 0 22 `kgY3EC73YzzVKmAbMGLE1
+Z83 w1568759628
+Z84 DPx4 work 19 register_array_type 0 22 `kgY3EC73YzzVKmAbMGLE1
 R15
 R2
 R3
 R0
-Z82 8ModelSimWork/src/mux32to1.vhd
-Z83 FModelSimWork/src/mux32to1.vhd
+Z85 8ModelSimWork/src/mux32to1.vhd
+Z86 FModelSimWork/src/mux32to1.vhd
 l0
 L6
 VW6?F3fK=hmj_6Ooc2hAaZ0
 !s100 df:PQ`eUIJNkD4Vo5ozPZ0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -902,7 +941,7 @@ R12
 R10
 R11
 Adataflow
-R81
+R84
 R15
 R2
 R3
@@ -913,7 +952,7 @@ VhjPPFQURMc;FliU[4ne4e0
 !s100 <g;=elNYC;bhZB<DZ`l`>1
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -922,21 +961,21 @@ R12
 R10
 R11
 Emux8to1
-Z84 w1573678934
+Z87 w1573678934
 R14
 R15
 R2
 R3
 R0
-Z85 8ModelSimWork/src/mux8to1.vhd
-Z86 FModelSimWork/src/mux8to1.vhd
+Z88 8ModelSimWork/src/mux8to1.vhd
+Z89 FModelSimWork/src/mux8to1.vhd
 l0
 L6
 V;G4enmMom<hVD>]YWoE^f2
 !s100 ?i8T5F2IUPE?46SHgi>BZ3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -956,7 +995,7 @@ VZ8cDa^ho96Mz4`5m^@e7f3
 !s100 g8W=lk_D?YzdDmFZ:SbC50
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -965,19 +1004,19 @@ R12
 R10
 R11
 Enbitreg
-Z87 w1568755992
+Z90 w1568755992
 R2
 R3
 R0
-Z88 8ModelSimWork/src/nBitReg.vhd
-Z89 FModelSimWork/src/nBitReg.vhd
+Z91 8ModelSimWork/src/nBitReg.vhd
+Z92 FModelSimWork/src/nBitReg.vhd
 l0
 L4
 VXo?ZfgnjAmT@V_^l5>7Y92
 !s100 @A<1<Ql[bWO`>cY08]zof0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -995,7 +1034,7 @@ VDaO0BGX<PMQ9HhLhD81Xe2
 !s100 jo=LMd9P31>^2`1NiJ3G<3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1004,19 +1043,19 @@ R12
 R10
 R11
 Eone_comp_structure
-Z90 w1568244318
+Z93 w1568244318
 R2
 R3
 R0
-Z91 8ModelSimWork/src/one_comp_Structure.vhd
-Z92 FModelSimWork/src/one_comp_Structure.vhd
+Z94 8ModelSimWork/src/one_comp_Structure.vhd
+Z95 FModelSimWork/src/one_comp_Structure.vhd
 l0
 L4
 VlQfj`;@R3O@0hR:z2cIaW3
 !s100 WLAK<;EdNE6Uh?M?`[ohk2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1034,7 +1073,7 @@ V[>SoGWJC26VVV32fmb2Pb2
 !s100 SdjEQDR@QhcmRADJmoZ1J3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1047,15 +1086,15 @@ R21
 R2
 R3
 R0
-Z93 8ModelSimWork/src/org2.vhd
-Z94 FModelSimWork/src/org2.vhd
+Z96 8ModelSimWork/src/org2.vhd
+Z97 FModelSimWork/src/org2.vhd
 l0
 L23
 V4G=dUz8iVPYflXcZT[mE43
 !s100 bGQ1F9eW^Q17OoL9h4g7z2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1073,7 +1112,7 @@ VCPW;:G3T;Ra6iQi>kUUHU1
 !s100 h5_AzR3TdRA0a_K=dQ>mI2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1124,21 +1163,21 @@ R12
 R10
 R11
 Eregisterfile
-Z95 w1573689640
-R81
+Z98 w1573689640
+R84
 R15
 R2
 R3
 R0
-Z96 8ModelSimWork/src/registerFile.vhd
-Z97 FModelSimWork/src/registerFile.vhd
+Z99 8ModelSimWork/src/registerFile.vhd
+Z100 FModelSimWork/src/registerFile.vhd
 l0
 L6
 VUlVLHo_Y=NEE_^h?FkEaR3
 !s100 QOfTN^D?PJDASPTTJ055W3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1147,7 +1186,7 @@ R12
 R10
 R11
 Astructure
-R81
+R84
 R15
 R2
 R3
@@ -1158,7 +1197,7 @@ Vc<_9Fhd^Z?C3[47a4`g=m1
 !s100 j78JQfhMS0d5Nj?9dW9N`1
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1167,19 +1206,19 @@ R12
 R10
 R11
 Esinglestallreg
-Z98 w1576133250
+Z101 w1576133250
 R2
 R3
 R0
-Z99 8ModelSimWork/src/SingleStallReg.vhd
-Z100 FModelSimWork/src/SingleStallReg.vhd
+Z102 8ModelSimWork/src/SingleStallReg.vhd
+Z103 FModelSimWork/src/SingleStallReg.vhd
 l0
 L4
 VBMahHB1ZDSD1[JUC]Y1cQ2
 !s100 YM6PSHh4@;?HJiIaOUJgM3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1197,7 +1236,7 @@ Vk2SO_MBEh@jfA^SMYn3ng1
 !s100 WG4W2zVaMnH0:;65AZRXi0
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1206,19 +1245,19 @@ R12
 R10
 R11
 Estallreg
-Z101 w1576133246
+Z104 w1576133246
 R2
 R3
 R0
-Z102 8ModelSimWork/src/StallReg.vhd
-Z103 FModelSimWork/src/StallReg.vhd
+Z105 8ModelSimWork/src/StallReg.vhd
+Z106 FModelSimWork/src/StallReg.vhd
 l0
 L4
 V?hM2ga;?LagEg2fMgXe:20
 !s100 TSoIQ>BKNTV=_TOzE2T`13
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1236,7 +1275,7 @@ VLUXz6c`P1<KVD4b1Lm]b[1
 !s100 `XgFOJzZknV?PEjQP5A>O2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1245,19 +1284,19 @@ R12
 R10
 R11
 Etb_registers
-Z104 w1576035128
+Z107 w1576035128
 R2
 R3
 R0
-Z105 8ModelSimWork/src/tb_registers.vhd
-Z106 FModelSimWork/src/tb_registers.vhd
+Z108 8ModelSimWork/src/tb_registers.vhd
+Z109 FModelSimWork/src/tb_registers.vhd
 l0
 L4
 VWWRbggBcfBL:HTOcH]1YA0
 !s100 <>zdjO`f5@NeHi7Ie@aWH3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1275,7 +1314,7 @@ V69i6Jc_kVH?X37mznDDlB0
 !s100 EIkW58>Y:PU`V`mdd@9X<3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1284,21 +1323,21 @@ R12
 R10
 R11
 Etb_simplifiedmipsprocessor
-R57
-Z107 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-Z108 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R60
+Z110 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z111 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R2
 R3
 R0
-Z109 8ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd
-Z110 FModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd
+Z112 8ModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd
+Z113 FModelSimWork/src/tb_SimplifiedMIPSProcessor.vhd
 l0
 L25
 VGH`]k::W]QM<R`n:Olizb3
 !s100 U@Wch0EJRK5@:W:0E@<RU1
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1307,8 +1346,8 @@ R12
 R10
 R11
 Amixed
-R107
-R108
+R110
+R111
 R2
 R3
 DEx4 work 26 tb_simplifiedmipsprocessor 0 22 GH`]k::W]QM<R`n:Olizb3
@@ -1318,7 +1357,7 @@ V=kfnKmVR>JjjSL[X@nBj52
 !s100 nD]7oEDB[EC=41X[NOE;J3
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1331,15 +1370,15 @@ R21
 R2
 R3
 R0
-Z111 8ModelSimWork/src/xorg2.vhd
-Z112 FModelSimWork/src/xorg2.vhd
+Z114 8ModelSimWork/src/xorg2.vhd
+Z115 FModelSimWork/src/xorg2.vhd
 l0
 L23
 VnJ`zzRzT3g15WBeWIX05=3
 !s100 [hI[mXFH4_j16U;>U1Lfn2
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
@@ -1357,7 +1396,7 @@ Vd4OIcj17`kAihFNmODGBL2
 !s100 Z6[FAPS4fBLB`F?OO<AY72
 R6
 33
-R30
+R59
 !i10b 1
 R8
 R9
