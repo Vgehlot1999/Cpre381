@@ -1,0 +1,77 @@
+IF:
+
+Gate 1: nbitReg 
+
+gate 2: add_Sub
+
+IMem: mem
+
+
+NEED MUX FROM ADDER THAT GOES INTO NBITREG PC
+
+
+IF/ID: gate 2 goes into
+       mem goes into
+
+
+
+///////////////////////////////////////////////////////////////////////////
+
+ID:
+
+Gate 4: ControlU ---------- takes from IFID
+
+GAte 10: Register file ---- takes from IFID
+
+GAte 8: Extender ---------- takes from IFID
+
+
+
+
+ID/EX: gate 10 goes into
+       gate 4 goes into
+	
+		takes WB
+		takes M
+		takes EX	
+
+       gate 8 goes into
+       INstruction bits 20-16 go into
+       Instruction bits 15 - 11 go into
+       IF/ID goes into
+
+////////////////////////////////////////////////////////////////////////////
+
+
+EX:
+
+Gate 3?: adder takes from ID/EX
+
+NEED LEFT SHIFTER
+
+Gate 15: Merged ALU (contains ALU control and ALU unit)
+
+Gate 11/12: Muxes
+
+gate 13/14: Muxes
+
+
+EX/MEM: gate 15 goes into
+	gate 3 goes into
+	gate 11/12 goes into
+	takes M
+	takes WB
+	ID/EX goes into
+
+////////////////////////////////////////////////////////////////////////////
+
+
+MEM:
+
+
+
+
+
+
+
+
